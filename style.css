@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial sans-serif;
+}
+
+body{
+    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    padding: 30px 30px 20px 99px;
+    margin-top: 0px;
+    margin-left: 310px;
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    text-align: left;
+    width: 50%;
+    margin: 60px 20%;
+    justify-content: space-between;
+}
+.nav h2{
+   
+    position: absolute;
+    top: 80px;
+    left: 410px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: #000000;
+
+}
+.user-input{
+    position: absolute;
+    width: 557px;
+    height: 47px;
+    left: 410px;
+    top: 142px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    border: none;
+
+
+}
+.user-input input{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-style: normal;
+    color: #1d1a1a;
+    background-color:#F3F3F3;
+    border: none;
+    font-size:large;
+}
+
+.addBtn {
+
+    position: absolute;
+    width: 115px;
+    height: 45px;
+    left: 580px;
+    top: 2px;
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    background: #EA5959; 
+    border-radius: 4px;
+    border: none;
+}
+
+.para1{
+    position: absolute;
+    width: 304px;
+    height: 37px;
+    left: 589px;
+    top: 301px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: #717171;
+   
+}
+
+#check{
+    accent-color: #EA5959;
+    width: 20px;
+    height: 17px;
+    border-radius: 4px;
+}
+li{
+    list-style-type: none;
+    padding-top: 20px;
+   
+}
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+  }
+
+label.strikeThis{
+    padding-top: 20px;
+     padding-left: 50px;
+}
+
+ button.deletebtn{
+    padding-top: 40px;
+    padding-left: 100px;
+    color: #FF0000;
+    font-size: 20px;
+    top: 60px;
+    background: none;
+    border: none; 
+ }
+i.fa-regular.fa-trash-can::before{
+        padding-top: 20px; 
+        
+    }
+   
+   
+
+
+
+
+
+
+
